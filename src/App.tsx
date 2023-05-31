@@ -58,7 +58,7 @@ const Tree = React.memo<
 export default function App() {
   return (
     <Container>
-      <Tree name="เตงคับ" defaultOpen>
+      <Tree name="เตงคับ">
         <Tree name="วันนี้วันอะไรหว่า" />
         <Tree name={<span>🙀 เค้ามีอะไรจะบอก ลองกดๆๆๆ</span>}>
           <Tree name="เค้าจะบอกว่าๆๆ" />
