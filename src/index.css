@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "doggy";
+  src: url("./fonts/iannnnn-DOG-Light.ttf");
+}
+
+body {
+  font-family: tahoma, arial, helvetica, sans-serif;
+
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
